@@ -1,9 +1,9 @@
 # world_mapper
-OLC:PGE application for making arbitrary resolution maps.
+OLC:PGE application for making arbitrary resolution maps. Mostly a work in progress - this is not meant to work out of the box.
 
-Instead of using classical raster graphics, image data is stored as a quadtree, allowing arbitrary resolution.
+Instead of using classical raster graphics, image data is stored as a quadtree, allowing arbitrary resolution. Thus, savefiles are also currently stored as a custom file type (appropriately named ".cff")
 
-It uses the OneLoneCoder's (PixelGameEngine)[https://github.com/OneLoneCoder/olcPixelGameEngine] for the interface.
+It uses the OneLoneCoder's (PixelGameEngine)[https://github.com/OneLoneCoder/olcPixelGameEngine] for the interface. You will need it (save in working directory as "olc.h")
 
 Controls:
 - CTRL+mouseclick for color picking
@@ -22,3 +22,4 @@ Known bugs:
 - brush icon and actual brush do not align
 - zoom is off-center ('L' was added as a temporary workaround)
 - spray brush is currently very limited in functionality
+- cannot export images
