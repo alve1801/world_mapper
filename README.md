@@ -23,3 +23,6 @@ Known bugs:
 - zoom is off-center ('L' was added as a temporary workaround)
 - spray brush is currently very limited in functionality
 - cannot export images
+
+
+29.5.21: I've fixed most of these, I intend to port it to my [engine](https://github.com/alve1801/engine) and then I'll upload
