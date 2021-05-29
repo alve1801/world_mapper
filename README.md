@@ -3,7 +3,7 @@ OLC:PGE application for making arbitrary resolution maps. Mostly a work in progr
 
 Instead of using classical raster graphics, image data is stored as a quadtree, allowing arbitrary resolution. Thus, savefiles are also currently stored as a custom file type (appropriately named ".cff")
 
-It uses the OneLoneCoder's (PixelGameEngine)[https://github.com/OneLoneCoder/olcPixelGameEngine] for the interface. You will need it (save in working directory as "olc.h")
+It uses the OneLoneCoder's [PixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine) for the interface. You will need it (save in working directory as "olc.h")
 
 Controls:
 - CTRL+mouseclick for color picking
